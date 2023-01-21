@@ -1,38 +1,342 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* -------------------------------FUentes--------------------- */
+@font-face {
+  font-family: Tiffany;
+  src: url(/src/assets/fonts/ITCTiffanyLTHeavy.ttf);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: Bodoni;
+  src: url(/src/assets/fonts/LTCBodoni175W01Regular.ttf);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@font-face {
+  font-family: BrandonMed;
+  src: url(/src/assets/fonts/Brandon_med.otf);
+}
+@font-face {
+  font-family: BrandonLight;
+  src: url(/src/assets/fonts/Brandon_light.otf);
+}
+/* -------------------------------NAvbar--------------------- */
+.navbar {
+  margin-top: 4em;
+}
+.navbar-brand {
+  font-family: Tiffany;
+  font-size: 45px;
+}
+.navbar-brand span {
+  font-family: BrandonLight;
+  line-height: 43.5px;
+  letter-spacing: 5.4px;
+}
+.collapse {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: end;
+  font-family: Bodoni;
+}
+.facelogo {
+  width: 60px;
+  margin: 0 0 0 15px;
+}
+
+/* -------------------------------HOme--------------------- */
+.home {
+  margin-top: 6em;
+}
+.home h1 {
+  font-family: Brandon;
+  line-height: 43.5px;
+  letter-spacing: 5.4px;
+  font-size: 33px;
+}
+
+.home h4 {
+  font-family: Bodoni;
+  letter-spacing: 2px;
+  margin: 15px 0 30px 0;
+  font-size: 25px;
+}
+.banerhome {
+  width: 80em;
+  margin: 20px 0 30px 0;
+}
+.button-about {
+  display: grid;
+  padding: 0;
+}
+.button-about button {
+  border-left: hidden;
+  border-right: hidden;
+  border-color: #c8c9ca;
+  border-radius: 0;
+  padding: 8px 0 8px 0;
+}
+/* -------------------------------ABout ME--------------------- */
+.aboutme {
+  margin-top: 6em;
+  text-align: center;
+}
+.aboutme h1 {
+  font-family: Brandon;
+  line-height: 43.5px;
+  letter-spacing: 5.4px;
+  font-size: 33px;
+}
+.aboutme h4 {
+  font-family: Bodoni;
+  letter-spacing: 2px;
+  margin: 15px 0 30px 0;
+  font-size: 20px;
+}
+.imgCoffee {
+  width: 20em;
+}
+.aboutme p {
+  font-family: Bodoni;
+  font-size: 20px;
+  line-height: 32.7667px;
+  vertical-align: baseline;
+  letter-spacing: 0.175px;
+  margin: 45px 0 45px 0;
+}
+/* .es {
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  height: 20px;
+  width: 25px;
+}
+.inline-block {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+} */
+/* -------------------------------POrtafolio--------------------- */
+.portafolio {
+  margin: 10px 0 45px 0;
+}
+.portafolio h1 {
+  font-family: Brandon;
+  font-size: 30px;
+  line-height: 43.5px;
+  letter-spacing: 5.4px;
+  margin: 40px 0 40px 0;
+}
+.cards {
+  width: 19em;
+  margin: 40px;
+}
+.card-port {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: auto;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.card-body {
+  text-align: justify;
+}
+.card-title {
+  font-family: Bodoni;
+  margin: 15px 0 8px 0;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0.18px;
+}
+.link-to {
+  font-family: BrandonLight;
+  font-size: 16px;
+  align-items: baseline;
+  text-decoration: none;
+  color: #333333;
+  letter-spacing: 0.18px;
+}
+a:hover {
+  color: black;
+}
+.link-to ion-icon {
+  vertical-align: middle;
+}
+.link-to ion-icon:hover {
+  color: royalblue;
+}
+.date-made {
+  font-family: Bodoni;
+  font-size: 16px;
+  color: grey;
+  margin: 8px 0 0 0;
+  letter-spacing: 0.18px;
+}
+.portafolio button {
+  border-radius: 0;
+}
+.card-port {
+  display: flex;
+}
+/* -------------------------------COntact--------------------- */
+
+.wrapper {
+  margin: 20px 0 20px 0;
+  padding: 0;
+}
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.App-link {
-  color: #61dafb;
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+.wrapper span {
+  margin-top: 5px;
+}
+.wrapper a {
+  text-decoration: none;
+  color: #333333;
+}
+.wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: '';
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+.wrapper .brand:hover,
+.wrapper .brand:hover .tooltip,
+.wrapper .brand:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+/* -------------------------------FOoter--------------------- */
+.footer {
+  text-align: center;
+}
+.footer span {
+  font-family: Bodoni;
+}
+.footer p {
+  font-family: BrandonLight;
+  font-size: 20px;
+  color: grey;
+}
+.footer button {
+  border-radius: 50px;
+  margin: 40px 0 40px 0;
+}
+.arrow-up-sharp {
+  text-decoration: none;
+}
+.footer ion-icon {
+  text-decoration: none;
+  color: black;
+  vertical-align: text-bottom;
+}
+.footer ion-icon:hover {
+  color: #ffffff;
+}
+
+/* -------------------------------Pages POrtafolio--------------------- */
+.contentPort {
+  margin: 60px 0 60px 0;
+}
+.portPagesTitle {
+  font-family: Bodoni;
+  text-align: center;
+  font-size: 40px;
+  margin: 4em 0 60px 0;
+  letter-spacing: 0.4px;
+}
+.portPagesSubTitle {
+  font-family: Bodoni;
+  margin: 0 0 15px 0;
+  font-size: 25px;
+}
+.portPagesContent {
+  font-family: BrandonLight;
+}
+
+.page-item {
+  text-align: end;
+  font-size: 15px;
+  font-family: BrandonLight;
+}
+
+.page-item span {
+  font-family: Bodoni;
+  font-size: 25px;
+  letter-spacing: 0.4px;
+  margin: 40px 0 0 0;
+}
+.page-link a {
+  text-align: justify;
+}
+.paginations {
+  list-style-type: none;
+  margin: 50px 0 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+/* ion-icon {
+  text-decoration: none;
+  color: black;
+  vertical-align: text-bottom;
+} */
+/* ion-icon:hover {
+  color: #ffffff;
+} */
+/* -------------------------------REsponsive--------------------- */

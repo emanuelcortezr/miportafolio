@@ -7,12 +7,14 @@ const Navbar = () => {
   const navigateHome = () => {
     navigate('/');
   };
-  const navigatePortafolio = () => {
-    navigate('/portafolio');
+
+  const navigateBreakCoffee = () => {
+    navigate('/breakcoffee');
   };
-  const navigateContact = () => {
-    navigate('/contact');
-  };
+  // const navigatePortafolio = () => {
+  //   navigate('/portafolio');
+  // };
+
   return (
     <div className="container" id="beginn">
       <nav className="navbar navbar-expand-lg">
@@ -43,7 +45,7 @@ const Navbar = () => {
                 <a
                   className="nav-link active"
                   aria-current="page"
-                  onClick={navigatePortafolio}
+                  onClick={navigateBreakCoffee}
                   href="#portafolio"
                 >
                   Portafolio
@@ -52,10 +54,11 @@ const Navbar = () => {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  onClick={navigateContact}
-                  href="#contact"
+                  href="https://api.whatsapp.com/send?phone=%2B56+9+2255+9905&text=%C2%A1Hola%21+quiero+saber+mas+sobre+tus+servicios."
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Contacto
+                  <ion-icon name="logo-whatsapp"></ion-icon>
                 </a>
               </li>
             </ul>

@@ -129,13 +129,39 @@
 }
 .cards {
   width: 19em;
-  margin: 40px;
+  margin: 20px 40px 20px 40px;
 }
 .card-port {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
   align-self: auto;
-  justify-content: center;
+  justify-content: center; */
+
+  padding: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 500px;
+  max-height: 1200px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  /* max-height: 1700px;
+  max-width: 800px;
+
+  margin: 0 auto;
+  min-height: 500px;
+
+  padding: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start; */
+}
+.portPagesSubTitle a {
+  color: #333333;
+  text-decoration: none;
 }
 .card-body {
   text-align: justify;
@@ -340,3 +366,14 @@ a:hover {
   color: #ffffff;
 } */
 /* -------------------------------REsponsive--------------------- */
+@media screen and (max-width: 1400px) {
+  .banerhome {
+    width: inherit;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .card-port {
+    max-height: 1700px;
+    max-width: 800px;
+  }
+}

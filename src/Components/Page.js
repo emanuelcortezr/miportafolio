@@ -8,10 +8,10 @@ import banerhome from '../assets/bannerhomeedmacora.png';
 // import Prueba from '../Components/Prueba';
 
 function Page() {
-  const [state, setState] = useState(false);
-  const toggle = () => {
-    setState(!state);
-  };
+  // const [state, setState] = useState(false);
+  // const toggle = () => {
+  //   setState(!state);
+  // };
   const navigate = useNavigate();
   const navigateBreakCoffee = () => {
     navigate('/breakcoffee');
@@ -84,6 +84,7 @@ function Page() {
               <div className="button-about">
                 <button
                   type="button"
+                  href="#"
                   onClick={navigateAboutMe}
                   className="btn btn-outline-dark"
                 >
@@ -108,7 +109,7 @@ function Page() {
                 <img src={port1} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <p className="card-text card-title">Break Coffee</p>
-                  <a className="link-to" onClick={navigateBreakCoffee}>
+                  <a className="link-to" href="#" onClick={navigateBreakCoffee}>
                     Saber mas <ion-icon name="arrow-forward-sharp"></ion-icon>
                   </a>
                   <p className="date-made">sep 16, 2022</p>
@@ -118,7 +119,11 @@ function Page() {
                 <img src={port3} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <p className="card-text card-title">Zulnails Artist</p>
-                  <a className="link-to" onClick={navigateZulnailsArtist}>
+                  <a
+                    className="link-to"
+                    href="#"
+                    onClick={navigateZulnailsArtist}
+                  >
                     Saber mas <ion-icon name="arrow-forward-sharp"></ion-icon>
                   </a>
                   <p className="date-made">sep 23, 2022</p>
@@ -128,7 +133,7 @@ function Page() {
                 <img src={port2} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <p className="card-text card-title">Dakota</p>
-                  <a className="link-to" onClick={navigateDakota}>
+                  <a className="link-to" href="#" onClick={navigateDakota}>
                     Saber mas <ion-icon name="arrow-forward-sharp"></ion-icon>
                   </a>
                   <p className="date-made">sep 30, 2022</p>
@@ -138,7 +143,7 @@ function Page() {
                 <img src={port4} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <p className="card-text card-title">Rick and Morty</p>
-                  <a className="link-to" onClick={navigateRandM}>
+                  <a className="link-to" href="#" onClick={navigateRandM}>
                     Saber mas <ion-icon name="arrow-forward-sharp"></ion-icon>
                   </a>
                   <p className="date-made">oct 15, 2022</p>
@@ -197,7 +202,7 @@ function Page() {
               </li>
             </a>
             <a
-              href="https://github.com/emanuelcortezr"
+              href="https://api.whatsapp.com/send?phone=%2B56+9+2255+9905&text=%C2%A1Hola%21+quiero+saber+mas+sobre+tus+servicios."
               target="_blank"
               rel="noopener noreferrer"
             >

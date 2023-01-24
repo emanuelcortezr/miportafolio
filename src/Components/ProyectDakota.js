@@ -36,9 +36,27 @@ const ProyectDakota = () => {
           </span>
         </h4>
         <h4 className="portPagesSubTitle">
-          Link:{' '}
+          Repositorio:{' '}
           <span className="portPagesContent">
-            https://github.com/emanuelcortezr/petpage.git
+            <a
+              href="https://github.com/emanuelcortezr/petpage.git"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://github.com/emanuelcortezr/petpage.git
+            </a>
+          </span>
+        </h4>
+        <h4 className="portPagesSubTitle">
+          Deploy:{' '}
+          <span className="portPagesContent">
+            <a
+              href="https://emanuelcortezr.github.io/petpage/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://emanuelcortezr.github.io/petpage/
+            </a>
           </span>
         </h4>
         <h4 className="portPagesSubTitle">

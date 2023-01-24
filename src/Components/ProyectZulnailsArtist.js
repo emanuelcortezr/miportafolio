@@ -36,9 +36,27 @@ const ProyecZulnailsArtist = () => {
           </span>
         </h4>
         <h4 className="portPagesSubTitle">
-          Link:{' '}
+          Repositorio:{' '}
           <span className="portPagesContent">
-            https://github.com/emanuelcortezr/web-zulma.git
+            <a
+              href="https://github.com/emanuelcortezr/web-zulma.git"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://github.com/emanuelcortezr/web-zulma.git
+            </a>
+          </span>
+        </h4>
+        <h4 className="portPagesSubTitle">
+          Deploy:{' '}
+          <span className="portPagesContent">
+            <a
+              href="https://emanuelcortezr.github.io/web-zulma/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://emanuelcortezr.github.io/web-zulma/
+            </a>
           </span>
         </h4>
         <h4 className="portPagesSubTitle">

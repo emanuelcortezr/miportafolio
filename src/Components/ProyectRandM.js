@@ -33,9 +33,27 @@ const ProyectRandM = () => {
           </span>
         </h4>
         <h4 className="portPagesSubTitle">
-          Link:{' '}
+          Repositorio:{' '}
           <span className="portPagesContent">
-            https://github.com/emanuelcortezr/petpage.git
+            <a
+              href="https://github.com/emanuelcortezr/api-randm.git"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://github.com/emanuelcortezr/api-randm.git
+            </a>
+          </span>
+        </h4>
+        <h4 className="portPagesSubTitle">
+          Deploy:{' '}
+          <span className="portPagesContent">
+            <a
+              href="https://emanuelcortezr.github.io/api-randm/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://emanuelcortezr.github.io/api-randm/
+            </a>
           </span>
         </h4>
         <h4 className="portPagesSubTitle">

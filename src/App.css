@@ -441,7 +441,7 @@ a:hover {
     margin-top: 4em;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
   .home h1 {
     font-size: 25px;
   }
@@ -457,7 +457,10 @@ a:hover {
     margin: 12px 20px 12px 20px;
   }
   .navbar-brand {
-    font-size: 35px;
+    font-size: 30px;
+  }
+  .facelogo {
+    display: none;
   }
   .home {
     margin-top: 4em;

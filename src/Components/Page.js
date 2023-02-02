@@ -88,7 +88,7 @@ function Page() {
                   onClick={navigateAboutMe}
                   className="btn btn-outline-dark"
                 >
-                  MAS SOBRE MI
+                  MÁS SOBRE MI
                 </button>
               </div>
             </div>
@@ -110,7 +110,7 @@ function Page() {
                 <div className="card-body">
                   <p className="card-text card-title">Break Coffee</p>
                   <a className="link-to" href="#" onClick={navigateBreakCoffee}>
-                    Saber mas <ion-icon name="arrow-forward-sharp"></ion-icon>
+                    Saber más <ion-icon name="arrow-forward-sharp"></ion-icon>
                   </a>
                   <p className="date-made">sep 16, 2022</p>
                 </div>
@@ -124,7 +124,7 @@ function Page() {
                     href="#"
                     onClick={navigateZulnailsArtist}
                   >
-                    Saber mas <ion-icon name="arrow-forward-sharp"></ion-icon>
+                    Saber más <ion-icon name="arrow-forward-sharp"></ion-icon>
                   </a>
                   <p className="date-made">sep 23, 2022</p>
                 </div>
@@ -134,7 +134,7 @@ function Page() {
                 <div className="card-body">
                   <p className="card-text card-title">Dakota</p>
                   <a className="link-to" href="#" onClick={navigateDakota}>
-                    Saber mas <ion-icon name="arrow-forward-sharp"></ion-icon>
+                    Saber más <ion-icon name="arrow-forward-sharp"></ion-icon>
                   </a>
                   <p className="date-made">sep 30, 2022</p>
                 </div>
@@ -144,7 +144,7 @@ function Page() {
                 <div className="card-body">
                   <p className="card-text card-title">Rick and Morty</p>
                   <a className="link-to" href="#" onClick={navigateRandM}>
-                    Saber mas <ion-icon name="arrow-forward-sharp"></ion-icon>
+                    Saber más <ion-icon name="arrow-forward-sharp"></ion-icon>
                   </a>
                   <p className="date-made">oct 15, 2022</p>
                 </div>

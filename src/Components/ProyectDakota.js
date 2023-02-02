@@ -22,7 +22,7 @@ const ProyectDakota = () => {
           Proyecto: <span className="portPagesContent">Dakota.</span>
         </h4>
         <h4 className="portPagesSubTitle">
-          Tecnoligias empleadas:{' '}
+          Tecnologías empleadas:{' '}
           <span className="portPagesContent">Javascript.</span>
         </h4>
         <h4 className="portPagesSubTitle">
@@ -60,17 +60,17 @@ const ProyectDakota = () => {
           </span>
         </h4>
         <h4 className="portPagesSubTitle">
-          Drescripcion:{' '}
+          Descripción:{' '}
           <span className="portPagesContent">
             Diseñado para una tienda de mascotas y veterinaria. Cuenta con un
             diseño sencillo, con dos colores principales, agradable a la vista.
-            Incluye tambien con un sistema de reserva de hora para la consulta
-            de las mascotas. llegando al final de la pagina encuentramos el
-            feedback de los usuarios, donde valoran el servicio prestado.
-            Tambien se encuentra la seccion de contacto donde se describen las
-            distintas vias de comunicacion con la veterinaria sea de forma
-            online a travez de las redes sociales o presencial facilitando la
-            direccion donde operan ademas los horarios de atencion al publico.
+            Incluye también un sistema de reserva de hora para la consulta de
+            las mascotas. Llegando al final de la página encontramos el feedback
+            de los usuarios, donde valoran el servicio prestado. También se
+            encuentra la sección de contacto donde se describen las distintas
+            vías de comunicación con la veterinaria sea de forma online a través
+            de las redes sociales o presencial facilitando la dirección donde
+            operan además los horarios de atención al público.
           </span>
         </h4>
       </div>

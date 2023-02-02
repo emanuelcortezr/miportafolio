@@ -19,7 +19,7 @@ const ProyectRandM = () => {
           Proyecto: <span className="portPagesContent">Rick and Morty.</span>
         </h4>
         <h4 className="portPagesSubTitle">
-          Tecnoligias empleadas:{' '}
+          Tecnologías empleadas:{' '}
           <span className="portPagesContent">Javascript.</span>
         </h4>
         <h4 className="portPagesSubTitle">
@@ -57,17 +57,18 @@ const ProyectRandM = () => {
           </span>
         </h4>
         <h4 className="portPagesSubTitle">
-          Drescripcion:{' '}
+          Descripción:{' '}
           <span className="portPagesContent">
-            Diseñado para una tienda de mascotas y veterinaria. Cuenta con un
-            diseño sencillo, con dos colores principales, agradable a la vista.
-            Incluye tambien con un sistema de reserva de hora para la consulta
-            de las mascotas. llegando al final de la pagina encuentramos el
-            feedback de los usuarios, donde valoran el servicio prestado.
-            Tambien se encuentra la seccion de contacto donde se describen las
-            distintas vias de comunicacion con la veterinaria sea de forma
-            online a travez de las redes sociales o presencial facilitando la
-            direccion donde operan ademas los horarios de atencion al publico.
+            Es una aplicacion diseñada con fines practicos. Se toman los datos
+            de la API Rick and Morty. Tiene un diseño sencillo y bonito. La
+            aplicacion muestra los personajes de la serie e informacion
+            relevante, tambien cuenta con la opcion de marca como favorito
+            cualquier personaje. Tiene un filtro de busqueda por si se quiere un
+            personaje especifico. Otra seccion lista episodios de la serie con
+            informacion relevante acerca de estos, tambien tiene un filtro de
+            busqueda para encontrar un episodio. Tambien se encuentra la seccion
+            de contacto donde se describen las distintas vias de comunicacion
+            personales.
           </span>
         </h4>
       </div>

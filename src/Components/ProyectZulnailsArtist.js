@@ -22,7 +22,7 @@ const ProyecZulnailsArtist = () => {
           Proyecto: <span className="portPagesContent">Zulnails Artist.</span>
         </h4>
         <h4 className="portPagesSubTitle">
-          Tecnoligias empleadas:{' '}
+          Tecnologías empleadas:{' '}
           <span className="portPagesContent">Javascript.</span>
         </h4>
         <h4 className="portPagesSubTitle">
@@ -60,19 +60,19 @@ const ProyecZulnailsArtist = () => {
           </span>
         </h4>
         <h4 className="portPagesSubTitle">
-          Drescripcion:{' '}
+          Descripción:{' '}
           <span className="portPagesContent">
-            Pagina web diseñada para una manicurista que por medio de internet
-            quiere impulsar emprendimiento personal. El usuario podra llegar
-            rapidamente e l informacion que desea, ya que cuenta con una pequeña
-            descripcion de sus servicios. Tiene un sistema de agenda para los
-            clientes que quieran obtener sus servicios de manera online. Tiene
-            una seccion portafolio donde la manicurista expone su trabajo asi
-            las potenciales clientas podran valorar su trabajo y tener la
-            confianza de su servicio. Al pie de pagina se encuentra la seccion
-            de contacto donde se describen las distintas vias de comunicacion
-            personal sea de forma online a travez de las redes sociales o
-            presencial facilitando la direccion donde opera.
+            Página web diseñada para una manicurista que por medio de internet
+            quiere impulsar emprendimiento personal. El usuario podrá llegar
+            rápidamente a la información que desea, ya que cuenta con una
+            pequeña descripción de sus servicios. Tiene un sistema de agenda
+            para los clientes que quieran obtener sus servicios de manera
+            online. Tiene una sección portafolio donde la manicurista expone su
+            trabajo así las potenciales clientas podrán valorar su trabajo y
+            tener la confianza de su servicio. Al pie de página se encuentra la
+            sección de contacto donde se describen las distintas vías de
+            comunicación personal sea de forma online a través de las redes
+            sociales o presencial facilitando la dirección donde opera.
           </span>
         </h4>
       </div>

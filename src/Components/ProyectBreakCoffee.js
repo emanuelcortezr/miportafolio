@@ -19,7 +19,7 @@ const ProyecBreakCoffee = () => {
           Proyecto: <span className="portPagesContent">Break Coffee.</span>
         </h4>
         <h4 className="portPagesSubTitle">
-          Tecnoligias empleadas:{' '}
+          Tecnologías empleadas:{' '}
           <span className="portPagesContent">Javascript.</span>
         </h4>
         <h4 className="portPagesSubTitle">
@@ -57,22 +57,22 @@ const ProyecBreakCoffee = () => {
           </span>
         </h4>
         <h4 className="portPagesSubTitle">
-          Drescripcion:{' '}
+          Descripción:{' '}
           <span className="portPagesContent">
-            Este proyecto se diseño para una cafeteria que necesitaba llegar a
-            la mayor cantidad de publico a travez del internet exponiendo sus
-            productos ademas de poder venderlos en linea. Cuenta con un diseño
-            colorido, agradble al la vista e intuitivo para que el usuario pueda
-            llegar facilmente a donde quiere. La pagina rapidamente describe
-            quienes son como empresa adicionado un albun de fotos tomadas de la
-            experiencia del usuario en la cafeteria. Incluye tambien con un
-            sistema de reserva de mesa. cuenta con un menu donde se podra ver el
-            detalle de cada producto a su vez se accede al e-commerc donde se
-            podran realizar su pedido. Hacia el final de la pagina se encuentra
-            el espacio de contacto donde se describen las distintas vias de
-            comunicacion con la empresa sea de forma online a travez de las
-            redes sociales o presencial facilitando la direccion donde operan
-            ademas los horarios de atencion al publico.
+            Este proyecto se diseñó para una cafetería que necesitaba llegar a
+            la mayor cantidad de público a través del internet exponiendo sus
+            productos además de poder venderlos en línea. Cuenta con un diseño
+            colorido, agradable a la vista e intuitivo para que el usuario pueda
+            llegar fácilmente a donde quiere. La página rápidamente describe
+            quienes son como empresa añadiendo un álbum de fotos tomadas de la
+            experiencia del usuario en la cafetería. Incluye también con un
+            sistema de reserva de mesa. Cuenta con un menú donde se podrá ver el
+            detalle de cada producto a su vez se accede al e-commerce donde se
+            podrán realizar su pedido. Hacia el final de la página se encuentra
+            el espacio de contacto donde se describen las distintas vías de
+            comunicación con la empresa sea de forma online a través de las
+            redes sociales o presencial facilitando la dirección donde operan
+            además los horarios de atención al público.
           </span>
         </h4>
       </div>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/miportafolio/static/css/main.163bec38.css",
-    "main.js": "/miportafolio/static/js/main.d9861b3b.js",
+    "main.css": "/miportafolio/static/css/main.5399da53.css",
+    "main.js": "/miportafolio/static/js/main.1fa84900.js",
     "static/js/787.bef62b31.chunk.js": "/miportafolio/static/js/787.bef62b31.chunk.js",
     "static/media/bannerhomeedmacora.png": "/miportafolio/static/media/bannerhomeedmacora.a810f864b9f25e69173c.png",
     "static/media/port1.png": "/miportafolio/static/media/port1.d626b0dcc3e534c65181.png",
@@ -11,16 +11,16 @@
     "static/media/Brandon_med.otf": "/miportafolio/static/media/Brandon_med.6c7d60fafc9995fffa5d.otf",
     "static/media/Brandon_light.otf": "/miportafolio/static/media/Brandon_light.f49b6cce4e0bc103de5f.otf",
     "static/media/LTCBodoni175W01Regular.ttf": "/miportafolio/static/media/LTCBodoni175W01Regular.20f969afe722787a9a89.ttf",
-    "static/media/CoffeeDoddle.svg": "/miportafolio/static/media/CoffeeDoddle.283c2d73bbe5a23204586de080701476.svg",
+    "static/media/CoffeeDoddle.svg": "/miportafolio/static/media/CoffeeDoddle.4f7382a77d9e300e1234c1936e580443.svg",
     "static/media/facelogo.png": "/miportafolio/static/media/facelogo.85d0076871c0eff8661b.png",
     "static/media/port4.png": "/miportafolio/static/media/port4.35751ed14a0e0bf15869.png",
     "index.html": "/miportafolio/index.html",
-    "main.163bec38.css.map": "/miportafolio/static/css/main.163bec38.css.map",
-    "main.d9861b3b.js.map": "/miportafolio/static/js/main.d9861b3b.js.map",
+    "main.5399da53.css.map": "/miportafolio/static/css/main.5399da53.css.map",
+    "main.1fa84900.js.map": "/miportafolio/static/js/main.1fa84900.js.map",
     "787.bef62b31.chunk.js.map": "/miportafolio/static/js/787.bef62b31.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.163bec38.css",
-    "static/js/main.d9861b3b.js"
+    "static/css/main.5399da53.css",
+    "static/js/main.1fa84900.js"
   ]
 }

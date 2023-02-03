@@ -14,7 +14,7 @@ const AboutMe = () => {
               <img src={coffee} className="imgCoffee" />
               <h1 className="title inline-block">SOBRE MI</h1>
               <h4>
-                "Gracias mamá, gracias papá. Lo que me dieron es perfecto"
+                "Gracias mamá, gracias papá. Lo que me dieron fue perfecto"
               </h4>
               <hr />
               <p>

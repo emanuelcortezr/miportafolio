@@ -43,7 +43,7 @@ const ProyectDakota = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://github.com/emanuelcortezr/petpage.git
+              https://github.com/petpage.git
             </a>
           </span>
         </h4>
@@ -55,7 +55,7 @@ const ProyectDakota = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://emanuelcortezr.github.io/petpage/
+              https://github.io/petpage/
             </a>
           </span>
         </h4>

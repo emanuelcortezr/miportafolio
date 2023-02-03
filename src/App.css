@@ -386,8 +386,18 @@ a:hover {
     width: 17em;
     margin: 15px 35px 15px 35px;
   }
+  .collapse {
+    display: flex;
+    justify-content: end;
+    text-align-last: center;
+    font-family: Bodoni;
+  }
+  .navbar-collapse {
+    display: flex;
+    justify-content: end;
+  }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .card-port {
     max-height: 1300px;
     max-width: 1000px;
@@ -395,6 +405,16 @@ a:hover {
   .cards {
     width: 14em;
     margin: 12px 15px 12px 15px;
+  }
+  .collapse {
+    display: flex;
+    justify-content: end;
+    text-align-last: center;
+    font-family: Bodoni;
+  }
+  .navbar-collapse {
+    display: flex;
+    justify-content: end;
   }
 }
 @media screen and (max-width: 575px) {
@@ -418,14 +438,21 @@ a:hover {
   .home {
     margin-top: 4em;
   }
+  .navbar {
+    margin-top: 2em;
+  }
+  .navbar > .container-fluid {
+    justify-content: center;
+    text-align: center;
+  }
+  .collapse {
+    display: block;
+  }
+  .portPagesTitle {
+    margin: 45px 0 45px 0;
+  }
 }
 @media screen and (max-width: 487px) {
-  .home h1 {
-    font-size: 26px;
-  }
-  .portafolio h1 {
-    font-size: 26px;
-  }
   .card-port {
     max-height: 3000px;
     max-width: 380px;
@@ -434,35 +461,228 @@ a:hover {
     width: 20em;
     margin: 12px 20px 12px 20px;
   }
-  .navbar-brand {
-    font-size: 35px;
-  }
-  .home {
-    margin-top: 4em;
-  }
-}
-@media screen and (max-width: 390px) {
   .home h1 {
-    font-size: 25px;
+    font-size: 24px;
+  }
+  .home h4 {
+    font-size: 20px;
+    margin: 0 0 15px 0;
   }
   .portafolio h1 {
-    font-size: 25px;
+    font-size: 24px;
+    margin: 15px 0 15px 0;
   }
-  .card-port {
-    max-height: 3000px;
-    max-width: 500px;
+  .banerhome {
+    margin: 0 0 15px 0;
   }
-  .cards {
-    width: 19em;
-    margin: 12px 20px 12px 20px;
+
+  .navbar {
+    margin-top: 2em;
+  }
+  .navbar > .container-fluid {
+    display: inline-grid;
+    justify-content: center;
+    text-align: center;
+  }
+  .navbar-collapse {
+    display: flex;
+    justify-content: center;
   }
   .navbar-brand {
     font-size: 30px;
+    margin: 0;
   }
   .facelogo {
     display: none;
   }
   .home {
     margin-top: 4em;
+  }
+  .imgCoffee {
+    width: 19em;
+    margin: 0;
+  }
+  .aboutme h1 {
+    font-size: 25px;
+  }
+  .aboutme p {
+    font-size: 17px;
+    line-height: 25px;
+    margin: 30px 0 30px 0;
+  }
+  .portPagesTitle {
+    font-size: 30px;
+    margin: 45px 0 45px 0;
+  }
+  .portPagesSubTitle {
+    margin: 0 0 15px 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  .portPagesSubTitle a {
+    width: 30px;
+  }
+  .page-item span {
+    font-size: 20px;
+    margin: 40px 0 0 0;
+  }
+  .footer p {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .card-port {
+    max-height: 3000px;
+    max-width: 500px;
+  }
+  .cards {
+    width: 20.5em;
+    margin: 12px 20px 12px 20px;
+  }
+  .home h1 {
+    font-size: 20px;
+  }
+  .home h4 {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+  }
+  .portafolio h1 {
+    font-size: 20px;
+    margin: 15px 0 15px 0;
+  }
+  .banerhome {
+    margin: 0 0 15px 0;
+  }
+
+  .navbar {
+    margin-top: 2em;
+  }
+  .navbar > .container-fluid {
+    display: inline-grid;
+    justify-content: center;
+    text-align: center;
+  }
+  .navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-brand {
+    font-size: 30px;
+    margin: 0;
+  }
+  .facelogo {
+    display: none;
+  }
+  .home {
+    margin-top: 4em;
+  }
+  .imgCoffee {
+    width: 17em;
+    margin: 0;
+  }
+  .aboutme h1 {
+    font-size: 25px;
+  }
+  .aboutme p {
+    font-size: 17px;
+    line-height: 25px;
+    margin: 30px 0 30px 0;
+  }
+  .portPagesTitle {
+    font-size: 30px;
+    margin: 45px 0 45px 0;
+  }
+  .portPagesSubTitle {
+    margin: 0 0 15px 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  .portPagesSubTitle a {
+    width: 30px;
+  }
+  .page-item span {
+    font-size: 20px;
+    margin: 40px 0 0 0;
+  }
+  .footer p {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .card-port {
+    max-height: 3000px;
+    max-width: 500px;
+  }
+  .cards {
+    width: 14.4em;
+    margin: 12px 15px 12px 15px;
+  }
+  .home h1 {
+    font-size: 20px;
+  }
+  .home h4 {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+  }
+  .portafolio h1 {
+    font-size: 20px;
+    margin: 15px 0 15px 0;
+  }
+  .banerhome {
+    margin: 0 0 15px 0;
+  }
+
+  .navbar {
+    margin-top: 2em;
+  }
+  .navbar > .container-fluid {
+    display: inline-grid;
+    justify-content: center;
+    text-align: center;
+  }
+  .navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-brand {
+    font-size: 30px;
+    margin: 0;
+  }
+  .facelogo {
+    display: none;
+  }
+  .home {
+    margin-top: 4em;
+  }
+  .imgCoffee {
+    width: 15em;
+    margin: 0;
+  }
+  .aboutme h1 {
+    font-size: 22px;
+  }
+  .aboutme p {
+    font-size: 17px;
+    line-height: 25px;
+    margin: 30px 0 30px 0;
+  }
+  .portPagesTitle {
+    font-size: 30px;
+    margin: 45px 0 45px 0;
+  }
+  .portPagesSubTitle {
+    margin: 0 0 15px 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  .portPagesSubTitle a {
+    width: 30px;
+  }
+  .page-item span {
+    font-size: 20px;
+    margin: 40px 0 0 0;
+  }
+  .footer p {
+    font-size: 19px;
   }
 }

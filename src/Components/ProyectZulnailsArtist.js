@@ -43,7 +43,7 @@ const ProyecZulnailsArtist = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://github.com/emanuelcortezr/web-zulma.git
+              https://github.com/web-zulma.git
             </a>
           </span>
         </h4>
@@ -55,7 +55,7 @@ const ProyecZulnailsArtist = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://emanuelcortezr.github.io/web-zulma/
+              https://github.io/web-zulma/
             </a>
           </span>
         </h4>

@@ -40,7 +40,7 @@ const ProyecBreakCoffee = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://github.com/emanuelcortezr/cafeteria.git
+              https://github.com/cafeteria.git
             </a>
           </span>
         </h4>
@@ -52,7 +52,7 @@ const ProyecBreakCoffee = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://emanuelcortezr.github.io/cafeteria/
+              https://github.io/cafeteria/
             </a>
           </span>
         </h4>

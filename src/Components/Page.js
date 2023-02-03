@@ -5,6 +5,7 @@ import port3 from '../assets/port3.png';
 import port4 from '../assets/port4.png';
 import { useNavigate } from 'react-router-dom';
 import banerhome from '../assets/bannerhomeedmacora.png';
+
 // import Prueba from '../Components/Prueba';
 
 function Page() {
@@ -190,7 +191,7 @@ function Page() {
               </span>
             </li> */}
             <a
-              href="https://github.com/emanuelcortezr"
+              href="https://www.linkedin.com/in/manuel-c-161754263/"
               target="_blank"
               rel="noopener noreferrer"
             >

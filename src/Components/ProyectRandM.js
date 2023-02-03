@@ -40,7 +40,7 @@ const ProyectRandM = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://github.com/emanuelcortezr/api-randm.git
+              https://github.com/api-randm.git
             </a>
           </span>
         </h4>
@@ -52,22 +52,22 @@ const ProyectRandM = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://emanuelcortezr.github.io/api-randm/
+              https://github.io/api-randm/
             </a>
           </span>
         </h4>
         <h4 className="portPagesSubTitle">
           Descripción:{' '}
           <span className="portPagesContent">
-            Es una aplicacion diseñada con fines practicos. Se toman los datos
-            de la API Rick and Morty. Tiene un diseño sencillo y bonito. La
-            aplicacion muestra los personajes de la serie e informacion
-            relevante, tambien cuenta con la opcion de marca como favorito
-            cualquier personaje. Tiene un filtro de busqueda por si se quiere un
-            personaje especifico. Otra seccion lista episodios de la serie con
-            informacion relevante acerca de estos, tambien tiene un filtro de
-            busqueda para encontrar un episodio. Tambien se encuentra la seccion
-            de contacto donde se describen las distintas vias de comunicacion
+            Es una aplicación diseñada con fines prácticos. Los datos de la API
+            Rick and Morty. Tiene un diseño sencillo y bonito. La aplicación
+            muestra los personajes de la serie animada e información relevante,
+            también cuenta con la opción de marcar como favorito cualquier
+            personaje. Tiene un filtro de búsqueda por si se quiere un personaje
+            específico. Otra sección lista, episodios de la serie con
+            información relevante acerca de estos, también tiene un filtro de
+            búsqueda para encontrar un episodio. También se encuentra la sección
+            de contacto donde se describen las distintas vías de comunicación
             personales.
           </span>
         </h4>

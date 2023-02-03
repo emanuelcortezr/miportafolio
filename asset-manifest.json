@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/miportafolio/static/css/main.8587ecad.css",
+    "main.css": "/miportafolio/static/css/main.57bacff1.css",
     "main.js": "/miportafolio/static/js/main.a92995d1.js",
     "static/js/787.bef62b31.chunk.js": "/miportafolio/static/js/787.bef62b31.chunk.js",
     "static/media/bannerhomeedmacora.png": "/miportafolio/static/media/bannerhomeedmacora.a810f864b9f25e69173c.png",
@@ -15,12 +15,12 @@
     "static/media/CoffeeDoddle.svg": "/miportafolio/static/media/CoffeeDoddle.4f7382a77d9e300e1234c1936e580443.svg",
     "static/media/port4.png": "/miportafolio/static/media/port4.35751ed14a0e0bf15869.png",
     "index.html": "/miportafolio/index.html",
-    "main.8587ecad.css.map": "/miportafolio/static/css/main.8587ecad.css.map",
+    "main.57bacff1.css.map": "/miportafolio/static/css/main.57bacff1.css.map",
     "main.a92995d1.js.map": "/miportafolio/static/js/main.a92995d1.js.map",
     "787.bef62b31.chunk.js.map": "/miportafolio/static/js/787.bef62b31.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8587ecad.css",
+    "static/css/main.57bacff1.css",
     "static/js/main.a92995d1.js"
   ]
 }

@@ -61,6 +61,16 @@ const Navbar = () => {
                   <ion-icon name="logo-whatsapp"></ion-icon>
                 </a>
               </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="mailto:emanuelcortezr@gmail.com?subject=%C2%A1Hola!%20quiero%20saber%20mas%20sobre%20tus%20servicios.&body=Hola%2C%20te%20contacto%20desde%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20que%20convers%C3%A1ramos%20para%20saber%20m%C3%A1s%20sobre%20tus%20servicios."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <ion-icon name="mail-outline"></ion-icon>
+                </a>
+              </li>
             </ul>
           </div>
         </div>

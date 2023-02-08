@@ -178,18 +178,6 @@ function Page() {
               </li>
             </a>
 
-            {/* <li className="icon brand">
-              <span className="tooltip">Slack</span>
-              <span>
-                <ion-icon name="logo-slack"></ion-icon>
-              </span>
-            </li>
-            <li className="icon brand">
-              <span className="tooltip">StackOverflow</span>
-              <span>
-                <ion-icon name="logo-stackoverflow"></ion-icon>
-              </span>
-            </li> */}
             <a
               href="https://www.linkedin.com/in/manuel-c-161754263/"
               target="_blank"
@@ -211,6 +199,18 @@ function Page() {
                 <span className="tooltip">Whatsapp</span>
                 <span>
                   <ion-icon name="logo-whatsapp"></ion-icon>
+                </span>
+              </li>
+            </a>
+            <a
+              href="mailto:emanuelcortezr@gmail.com?subject=%C2%A1Hola!%20quiero%20saber%20mas%20sobre%20tus%20servicios.&body=Hola%2C%20te%20contacto%20desde%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20que%20convers%C3%A1ramos%20para%20saber%20m%C3%A1s%20sobre%20tus%20servicios."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li className="icon brand">
+                <span className="tooltip">Gmail</span>
+                <span>
+                  <ion-icon name="mail"></ion-icon>
                 </span>
               </li>
             </a>

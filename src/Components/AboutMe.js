@@ -18,31 +18,36 @@ const AboutMe = () => {
               </h4>
               <hr />
               <p>
-                ¡Hola! Me llamo Edicto, pero me dicen Manuel. Me dedico al
-                diseño de páginas web, hasta ahora enfocándome en entorno de
-                JavaScript. Les contaré que soy inmigrante ya de varios años.
-                Con el cambio de vida también llego una nueva profesión, ya que
-                soy ingeniero mecánico, la cual no ejercí por mucho tiempo al
-                querer contemplar nuevos horizontes. Fue cuando reviviendo
-                viejas inquietudes decidí explorarlas y me reencontré con la
-                programación, entonces me dio la bienvenida a su enorme mundo,
-                en el que he encontrado lugares con muchas posibilidades,
-                diferentes visiones, descubriendo en sus calles personas
-                realmente extraordinarias que hacen que me enamore y me apasione
-                más de esta profesión al enseñarme todos los días algo nuevo y
-                motivarme cada día a levantarme de la cama. <br />
-                <br />
-                Poseo habilidades adquiridas durante mis estudios, las prácticas
-                en el sector tecnológico y trabajos a tiempo parcial. Además soy
-                una persona meticulosa en lo que respecta al diseño. Me gusta un
-                ámbito de trabajo estimulante que me permita desarrollar mi
-                creatividad, habilidades y ampliar mis conocimientos.
+                ¡Hey, qué tal! ¿Estás listo para crear una página web
+                espectacular? Yo puedo ayudarte con eso, pero primero te cuento
+                un poco de mí. Me llamo Edicto y me dedico al diseño de páginas
+                web con un enfoque en el entorno de JavaScript. Aunque mi
+                formación originalmente es en ingeniería mecánica, decidí
+                explorar mi pasión por la programación, y ¡no me arrepiento!
                 <br />
                 <br />
-                Ahora cuéntame, ¿cómo puedo ayudarte?, ¿en qué puedo colaborar?
-                Estoy seguro de que con mis conocimientos y tus ideas podremos
-                construir una página web moderna y amigable mejorando así su
-                imagen personal o la de su empresa.
+                A lo largo de mi vida, he tenido la oportunidad de viajar y
+                vivir en distintos lugares así como de conocer nuevas personas,
+                lo que me ha permitido apreciar la belleza de las diferencias
+                culturales y disfrutar de la riqueza que cada lugar tiene para
+                ofrecer. En el mundo de la programación he encontrado todo eso y
+                más. Me apasiona aprender algo nuevo cada día y conocer a
+                personas verdaderamente extraordinarias que me inspiran a dar lo
+                mejor de mí en cada proyecto.
+                <br />
+                <br />
+                Soy una persona meticulosa en lo que respecta al diseño, en la
+                resolución de problemas, de pensamiento crítico y con capacidad
+                para trabajar en equipo. Estoy siempre en busca de un ámbito de
+                trabajo estimulante que me permita desarrollar mi creatividad y
+                habilidades, así como ampliar mis conocimientos.
+                <br />
+                <br />
+                Entonces, ¿en qué puedo ayudarte? ¿Necesitas una página web
+                moderna y amigable para mejorar tu imagen personal o la de tu
+                empresa? ¡Estoy seguro de que juntos podemos lograrlo! Cuéntame
+                tus ideas y trabajemos juntos para hacerlas realidad. ¡Vamos a
+                crear algo increíble!
               </p>
               <hr />
             </div>
